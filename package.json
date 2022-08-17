@@ -5,7 +5,8 @@
   "homepage": "https://github.com/enpitsuLin/astro-windicss#readme",
   "type": "module",
   "scripts": {
-    "build": "tsup"
+    "build": "tsup",
+    "prepack": "npm run build"
   },
   "keywords": [
     "astro",
