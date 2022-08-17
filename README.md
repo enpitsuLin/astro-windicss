@@ -10,12 +10,28 @@ npm install astro-windicss -D
 
 ## Usage
 
-add to the integrations in `astro.config.mjs`
+add to the integrations in your `astro.config.*`
 
 ```js
 import windicss from 'astro-windcss'
 
 export default defineConfig({
+  //...
   integrations: [windicss()]
 })
+```
+
+then, restart the dev server. windicss's utility classes should be ready to go right away.Head to the [windicss docs](https://windicss.org/) to learn how to use.
+
+## Configuration
+
+There are one way recommended is use config file, more detail: [configuration docs](https://windicss.org/guide/configuration.html)
+
+### integration configuration
+
+if you want import windicss whenever you like instead of auto import windicss, your can disabled it.
+
+```javascript
+//...
+integrations: [windicss({ astro: { autoImport: false } })]
 ```
