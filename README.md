@@ -13,7 +13,7 @@ npm install astro-windicss -D
 add to the integrations in your `astro.config.*`
 
 ```js
-import windicss from 'astro-windcss'
+import windicss from 'astro-windicss'
 
 export default defineConfig({
   //...
