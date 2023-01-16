@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "tsup",
-    "prepack": "npm run build"
+    "prepack": "pnpm build"
   },
   "keywords": [
     "astro",
