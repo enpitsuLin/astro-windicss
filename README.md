@@ -5,7 +5,7 @@
 install with npm:
 
 ```sh
-npm install astro-windicss -D
+pnpm install astro-windicss -D
 ```
 
 ## Usage
