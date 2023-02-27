@@ -1,6 +1,6 @@
 {
   "name": "astro-windicss",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Windicss + Astro integrations",
   "homepage": "https://github.com/enpitsuLin/astro-windicss#readme",
   "type": "module",
