@@ -5,7 +5,11 @@
 install with npm:
 
 ```sh
-pnpm install astro-windicss -D
+npm install astro-windicss -D
+# use pnpm 
+pnpm add astro-windicss -D
+# use yarn
+yarn add astro-windicss -D
 ```
 
 ## Usage
