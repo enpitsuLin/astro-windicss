@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "astro": "^2.0.0",
-    "tsup": "^6.5.0",
+    "tsup": "^8.0.0",
     "typescript": "^5.0.0",
     "windicss": "^3.5.6"
   }
